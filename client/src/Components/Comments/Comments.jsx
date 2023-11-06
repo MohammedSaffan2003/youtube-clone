@@ -1,3 +1,4 @@
+// this is tasks 1
 import React from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -40,8 +41,8 @@ function Comments({ videoId }) {
         );
         setCommentText("");
       }
-    }else{
-      alert("Plz login to post your commnet !")
+    } else {
+      alert("Plz login to post your commnet !");
     }
   };
   return (
