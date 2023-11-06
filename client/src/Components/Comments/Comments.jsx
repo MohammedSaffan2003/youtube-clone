@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { postComment } from "../../actions/comments";
 import "./comments.css";
 import DisplayComments from "./DisplayComments";
+import LocationFeature from "../../actions/locationFeature";
 function Comments({ videoId }) {
   const [commentText, setCommentText] = useState("");
 
@@ -47,6 +48,7 @@ function Comments({ videoId }) {
   };
   return (
     <>
+      <LocationFeature />
       <form className="comments_sub_form_comments" onSubmit={handleOnSubmit}>
         <input
           type="text"

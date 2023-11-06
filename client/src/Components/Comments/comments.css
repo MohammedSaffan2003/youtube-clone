@@ -53,3 +53,23 @@
   .EditDel_DisplayCommendt i {
     padding: 0.2rem;
   }
+
+  /* for show user location button  */
+  .comment_show_location_btn {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgb(64, 64, 64);
+    background-color: transparent;
+    color: aliceblue;
+    font-size: large;
+    width: 20%;
+    margin-right: 1rem; /* Adjust the margin as needed */
+    padding: 0%;
+  }
+  
+  .comment_show_location_btn:hover {
+    border: 2px solid rgba(64, 64, 64, 0.05);
+    border-bottom: 2px solid rgb(64, 64, 64);
+    background-color: rgba(240, 248, 255, 0.05);
+  }
+  
